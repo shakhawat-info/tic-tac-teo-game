@@ -39,7 +39,7 @@ h1{
 }
 .gridBox .grid.choosed{
     background-color: antiquewhite;
-    cursor: not-allowed;
+    pointer-events: none;
 }
 .gridBox .grid.hi{
     background-color: rgb(89, 168, 140);

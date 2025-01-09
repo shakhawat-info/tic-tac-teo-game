@@ -33,6 +33,8 @@ function winerCheck(){
 
 // Grid click
 function gridClick(e){
+    console.log('click');
+    
     let gridIndex = e.target.dataset.index;
     gridArr[gridIndex] = currentPlayer ;
     e.target.textContent = currentPlayer;
